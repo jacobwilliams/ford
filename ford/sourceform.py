@@ -404,7 +404,7 @@ class FortranBase(object):
                 self.procedure.markdown(md, project)
         return
 
-    
+
     def sort(self):
         '''
         Sorts components of the object.
@@ -440,7 +440,7 @@ class FortranBase(object):
         if hasattr(self,'args'):
             #sort_items(self.args,args=True)
             pass
-    
+
 
     def make_links(self, project):
         """
@@ -2122,7 +2122,7 @@ class GenericSource(FortranBase):
             lexer = guess_lexer_for_filename(self.name, self.raw_src)
         else:
             import pygments.lexers
-            lexer = getattr(pygments.lexers,self.lexer_str)
+            lexer = getattr(pygments.lexers,self.lexer_str)()
         self.src = highlight(self.raw_src, lexer,
                              HtmlFormatter(lineanchors='ln', cssclass='hl'))
         com_re = re.compile("^((?!{0}|[\"']).|(\'[^']*')|(\"[^\"]*\"))*({0}.*)$".format(re.escape(comchar)))
