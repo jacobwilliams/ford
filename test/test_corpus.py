@@ -49,7 +49,7 @@ import pytest
         ("https://github.com/jacobwilliams/csv-fortran", "csv-fortran/ford.md", ""),
         (
             "https://github.com/jacobwilliams/json-fortran",
-            "json-fortran/json-fortran.md",
+            "json-fortran/ford.md",
             "",
         ),
         (
@@ -58,9 +58,9 @@ import pytest
             "",
         ),
         ("https://github.com/jacobwilliams/quadpack", "quadpack/ford.md", ""),
-        ("https://github.com/szaghi/FLAP", "FLAP/doc/main_page.md", ""),
-        ("https://github.com/szaghi/FiNeR", "FiNeR/doc/main_page.md", ""),
-        ("https://github.com/szaghi/VTKFortran", "VTKFortran/doc/main_page.md", ""),
+        ("https://github.com/szaghi/FLAP", "FLAP/docs/ford.md", ""),
+        ("https://github.com/szaghi/FiNeR", "FiNeR/docs/ford.md", ""),
+        ("https://github.com/szaghi/VTKFortran", "VTKFortran/docs/ford.md", ""),
         ("https://github.com/toml-f/toml-f", "toml-f/docs.md", ""),
         ("https://github.com/ylikx/forpy", "forpy/forpy_project.md", ""),
         (
